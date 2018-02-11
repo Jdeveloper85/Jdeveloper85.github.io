@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+}
+body {
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #3e7950;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+article {
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+    font-size: 25px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #2baa79;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Alegreya Sans';
+}
+
+.blurb {
+    background-color: rgb(100, 219, 116);
+    padding: 10px;
+}
+
+.title {
+    border: 3px solid rgb(50, 73, 60);
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
